@@ -67,6 +67,6 @@ function stopwatch() {
     document.getElementById("sec").innerHTML = s;
     document.getElementById("count").innerHTML = c;
 
-    setTimeout("stopwatch()", 1);
+    setTimeout("stopwatch()", 10);
   }
 }
